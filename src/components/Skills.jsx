@@ -33,7 +33,7 @@ export default function Skills({ skills ,skills1}) {
       <div className="section__header">
         <div>
           <p className="section__eyebrow">Skills</p>
-          <h2 className="section__title">Core skills I rely on the most.</h2>
+          <h2 className="section__title">Core SKILLS I rely on the most.</h2>
         </div>
         <p className="section__lead">
           Slow, clean, and always moving. Just how a good skills strip should feel.

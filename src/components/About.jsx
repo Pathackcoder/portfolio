@@ -3,7 +3,7 @@ export default function About({ cards }) {
     <section className="section" id="about">
       <div className="section__header section__header--stacked">
         <p className="section__eyebrow">About / Hobby</p>
-        <h2 className="section__title">Stepping away, but still in the flow...</h2>
+        <h2 className="section__title">Stepping away, but I'm in the flow...</h2>
         <p className="section__lead section__lead--wide">
           My work has centered on React interfaces, APIs, reusable systems, and full-stack builds. Even outside project work, I naturally drift toward thoughtful UI, sharp logic, and a mix of strategy and rhythm that keeps things interesting.
         </p>
@@ -11,7 +11,7 @@ export default function About({ cards }) {
 
       <div className="about__grid">
         {cards.map((card, index) => (
-          <article className="about__card" key={card.title}>
+          <article className="about__card tracking-wider" key={card.title}>
             <span className="about__index" aria-hidden="true">
               0{index + 1}
             </span>

@@ -743,6 +743,7 @@ main {
   }
 
   .hero__title {
+    color: #fdcc09;
     max-width: 9ch;
     font-size: clamp(2.55rem, 15vw, 4.6rem);
   }
@@ -827,4 +828,24 @@ main {
   border-radius: 20px;
   font-size: 14px;
   backdrop-filter: blur(8px);
+}
+
+.tracking-tight {
+  letter-spacing: -0.02em;
+}
+
+.tracking-normal {
+  letter-spacing: 0;
+}
+
+.tracking-wide {
+  letter-spacing: 0.08em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.12em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.18em;
 }

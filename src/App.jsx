@@ -129,7 +129,7 @@ const techPills = ['React.js','Express.js','Node.js','MongoDB','Socket.IO', 'Red
 
 function App() {
   return (
-    <div className="app-shell">
+    <div className="app-shell tracking-wide">
       <a className="skip-link" href="#main">
         Skip to content
       </a>
@@ -140,7 +140,7 @@ function App() {
       <header className="topbar">
         <div className="topbar__inner">
           <a className="brand" href="#home">
-            Amit Pathak
+            @Pathackcoder
           </a>
 
           <nav className="nav" aria-label="Primary">

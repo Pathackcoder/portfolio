@@ -8,7 +8,7 @@ export default function Contact({ links }) {
       <div className="contact-card">
         <div>
           <p className="section__eyebrow">Contact</p>
-          <h2 className="section__title">Let&apos;s make something clean and useful.</h2>
+          <h2 className="section__title tracking-wider">Let&apos;s make something clean and useful.</h2>
           <p className="section__lead section__lead--wide">
             If you have a role, freelance project, or an idea that needs crisp frontend
             execution, I&apos;d be happy to talk.
