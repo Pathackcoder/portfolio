@@ -94,7 +94,7 @@ export default function Hero({ intro, phrases, techPills }) {
         <p className="section__eyebrow">Hi, I&apos;m Amit Pathak and I do</p>
 
         {/* Title: smaller font so it fits in 1-2 lines comfortably */}
-        <h1 className="hero__title" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.4rem)', lineHeight: 1.15, whiteSpace: 'nowrap' }}>
+        <h1 className="hero__title" style={{ fontSize: 'clamp(1rem, 4vw, 2.4rem)', lineHeight: 1.15, whiteSpace: 'nowrap' }}>
           Build . Test . Deploy . Scale  
         </h1>
 
